@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48495DB2AAFED53000AC8DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495DA2AAFED53000AC8DB /* LoginViewController.swift */; };
+		F48495DD2AAFF2F7000AC8DB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495DC2AAFF2F7000AC8DB /* Observable.swift */; };
+		F48495DF2AAFFDE5000AC8DB /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495DE2AAFFDE5000AC8DB /* SampleViewController.swift */; };
+		F48495E12AB00155000AC8DB /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495E02AB00155000AC8DB /* SampleViewModel.swift */; };
+		F48495E32AB00E3E000AC8DB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495E22AB00E3E000AC8DB /* LoginViewModel.swift */; };
+		F48495E62AB02A4D000AC8DB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495E52AB02A4D000AC8DB /* APIService.swift */; };
+		F48495E82AB02A63000AC8DB /* PhotoCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495E72AB02A63000AC8DB /* PhotoCodable.swift */; };
+		F48495EA2AB02B57000AC8DB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495E92AB02B57000AC8DB /* PhotoViewController.swift */; };
+		F48495EC2AB02DA0000AC8DB /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48495EB2AB02DA0000AC8DB /* PhotoViewModel.swift */; };
+		F49A84762AB139DE00B89579 /* CacluateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84752AB139DE00B89579 /* CacluateViewController.swift */; };
+		F49A84782AB13A9B00B89579 /* CalcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84772AB13A9B00B89579 /* CalcViewModel.swift */; };
+		F49A847A2AB13DA100B89579 /* calcObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84792AB13DA100B89579 /* calcObservable.swift */; };
+		F49A847E2AB1FA5F00B89579 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A847D2AB1FA5F00B89579 /* LottoViewController.swift */; };
+		F49A84802AB1FC4A00B89579 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A847F2AB1FC4A00B89579 /* NetworkManager.swift */; };
+		F49A84832AB1FC8B00B89579 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F49A84822AB1FC8B00B89579 /* Alamofire */; };
+		F49A84852AB1FCD300B89579 /* LottoCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84842AB1FCD300B89579 /* LottoCodable.swift */; };
+		F49A84872AB1FF3200B89579 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84862AB1FF3200B89579 /* LottoViewModel.swift */; };
+		F49A84892AB1FF4600B89579 /* LottoObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84882AB1FF4600B89579 /* LottoObservable.swift */; };
 		F4C058842AAE991D00C3BB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058832AAE991D00C3BB7C /* AppDelegate.swift */; };
 		F4C058862AAE991D00C3BB7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058852AAE991D00C3BB7C /* SceneDelegate.swift */; };
 		F4C058882AAE991D00C3BB7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058872AAE991D00C3BB7C /* ViewController.swift */; };
 		F4C0588B2AAE991D00C3BB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C058892AAE991D00C3BB7C /* Main.storyboard */; };
 		F4C0588D2AAE991D00C3BB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C0588C2AAE991D00C3BB7C /* Assets.xcassets */; };
 		F4C058902AAE991D00C3BB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0588E2AAE991D00C3BB7C /* LaunchScreen.storyboard */; };
+		F4C058A02AAEAE2300C3BB7C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C058A22AAEAE2300C3BB7C /* Localizable.strings */; };
+		F4C058A62AAEBAB400C3BB7C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058A52AAEBAB400C3BB7C /* String+Extension.swift */; };
+		F4C058A92AAEBDD100C3BB7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C058AB2AAEBDD100C3BB7C /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F48495DA2AAFED53000AC8DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F48495DC2AAFF2F7000AC8DB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		F48495DE2AAFFDE5000AC8DB /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		F48495E02AB00155000AC8DB /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		F48495E22AB00E3E000AC8DB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F48495E52AB02A4D000AC8DB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F48495E72AB02A63000AC8DB /* PhotoCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCodable.swift; sourceTree = "<group>"; };
+		F48495E92AB02B57000AC8DB /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F48495EB2AB02DA0000AC8DB /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		F49A84752AB139DE00B89579 /* CacluateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacluateViewController.swift; sourceTree = "<group>"; };
+		F49A84772AB13A9B00B89579 /* CalcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewModel.swift; sourceTree = "<group>"; };
+		F49A84792AB13DA100B89579 /* calcObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcObservable.swift; sourceTree = "<group>"; };
+		F49A847D2AB1FA5F00B89579 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		F49A847F2AB1FC4A00B89579 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F49A84842AB1FCD300B89579 /* LottoCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoCodable.swift; sourceTree = "<group>"; };
+		F49A84862AB1FF3200B89579 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		F49A84882AB1FF4600B89579 /* LottoObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoObservable.swift; sourceTree = "<group>"; };
 		F4C058802AAE991D00C3BB7C /* Unsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C058832AAE991D00C3BB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C058852AAE991D00C3BB7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,18 @@
 		F4C0588C2AAE991D00C3BB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C0588F2AAE991D00C3BB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C058912AAE991D00C3BB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C058972AAE9CB300C3BB7C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		F4C058982AAE9CB300C3BB7C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F4C058992AAE9CBB00C3BB7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		F4C0589A2AAE9CBB00C3BB7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F4C0589D2AAE9DBD00C3BB7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F4C058A12AAEAE2300C3BB7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C058A32AAEAE3100C3BB7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C058A42AAEAE3200C3BB7C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C058A52AAEBAB400C3BB7C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		F4C058AA2AAEBDD100C3BB7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4C058AC2AAEBDD800C3BB7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4C058AD2AAEBDD800C3BB7C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +81,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49A84832AB1FC8B00B89579 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F48495D92AAFED3B000AC8DB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F48495DC2AAFF2F7000AC8DB /* Observable.swift */,
+				F48495DA2AAFED53000AC8DB /* LoginViewController.swift */,
+				F48495E22AB00E3E000AC8DB /* LoginViewModel.swift */,
+				F48495DE2AAFFDE5000AC8DB /* SampleViewController.swift */,
+				F48495E02AB00155000AC8DB /* SampleViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F48495E42AB02A3D000AC8DB /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				F48495E52AB02A4D000AC8DB /* APIService.swift */,
+				F48495E72AB02A63000AC8DB /* PhotoCodable.swift */,
+				F48495E92AB02B57000AC8DB /* PhotoViewController.swift */,
+				F48495EB2AB02DA0000AC8DB /* PhotoViewModel.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		F49A84742AB139B600B89579 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				F49A84752AB139DE00B89579 /* CacluateViewController.swift */,
+				F49A84772AB13A9B00B89579 /* CalcViewModel.swift */,
+				F49A84792AB13DA100B89579 /* calcObservable.swift */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		F49A847B2AB1FA4700B89579 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				F49A847C2AB1FA5300B89579 /* Lotto */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		F49A847C2AB1FA5300B89579 /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				F49A847D2AB1FA5F00B89579 /* LottoViewController.swift */,
+				F49A847F2AB1FC4A00B89579 /* NetworkManager.swift */,
+				F49A84842AB1FCD300B89579 /* LottoCodable.swift */,
+				F49A84862AB1FF3200B89579 /* LottoViewModel.swift */,
+				F49A84882AB1FF4600B89579 /* LottoObservable.swift */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
 		F4C058772AAE991D00C3BB7C = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +160,20 @@
 		F4C058822AAE991D00C3BB7C /* Unsplash */ = {
 			isa = PBXGroup;
 			children = (
+				F49A847B2AB1FA4700B89579 /* Assignment */,
+				F49A84742AB139B600B89579 /* Calculate */,
+				F48495E42AB02A3D000AC8DB /* Photo */,
+				F48495D92AAFED3B000AC8DB /* Login */,
 				F4C058832AAE991D00C3BB7C /* AppDelegate.swift */,
 				F4C058852AAE991D00C3BB7C /* SceneDelegate.swift */,
 				F4C058872AAE991D00C3BB7C /* ViewController.swift */,
+				F4C058A22AAEAE2300C3BB7C /* Localizable.strings */,
 				F4C058892AAE991D00C3BB7C /* Main.storyboard */,
 				F4C0588C2AAE991D00C3BB7C /* Assets.xcassets */,
 				F4C0588E2AAE991D00C3BB7C /* LaunchScreen.storyboard */,
 				F4C058912AAE991D00C3BB7C /* Info.plist */,
+				F4C058A52AAEBAB400C3BB7C /* String+Extension.swift */,
+				F4C058AB2AAEBDD100C3BB7C /* InfoPlist.strings */,
 			);
 			path = Unsplash;
 			sourceTree = "<group>";
@@ -83,6 +194,9 @@
 			dependencies = (
 			);
 			name = Unsplash;
+			packageProductDependencies = (
+				F49A84822AB1FC8B00B89579 /* Alamofire */,
+			);
 			productName = Unsplash;
 			productReference = F4C058802AAE991D00C3BB7C /* Unsplash.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +223,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = F4C058772AAE991D00C3BB7C;
+			packageReferences = (
+				F49A84812AB1FC8B00B89579 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F4C058812AAE991D00C3BB7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C058902AAE991D00C3BB7C /* LaunchScreen.storyboard in Resources */,
+				F4C058A02AAEAE2300C3BB7C /* Localizable.strings in Resources */,
 				F4C0588D2AAE991D00C3BB7C /* Assets.xcassets in Resources */,
 				F4C0588B2AAE991D00C3BB7C /* Main.storyboard in Resources */,
+				F4C058A92AAEBDD100C3BB7C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +259,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49A84802AB1FC4A00B89579 /* NetworkManager.swift in Sources */,
+				F4C058A62AAEBAB400C3BB7C /* String+Extension.swift in Sources */,
 				F4C058882AAE991D00C3BB7C /* ViewController.swift in Sources */,
+				F49A84762AB139DE00B89579 /* CacluateViewController.swift in Sources */,
+				F49A847E2AB1FA5F00B89579 /* LottoViewController.swift in Sources */,
+				F49A84872AB1FF3200B89579 /* LottoViewModel.swift in Sources */,
 				F4C058842AAE991D00C3BB7C /* AppDelegate.swift in Sources */,
+				F48495DB2AAFED53000AC8DB /* LoginViewController.swift in Sources */,
+				F48495DD2AAFF2F7000AC8DB /* Observable.swift in Sources */,
+				F48495EA2AB02B57000AC8DB /* PhotoViewController.swift in Sources */,
+				F49A847A2AB13DA100B89579 /* calcObservable.swift in Sources */,
+				F49A84892AB1FF4600B89579 /* LottoObservable.swift in Sources */,
+				F48495E82AB02A63000AC8DB /* PhotoCodable.swift in Sources */,
+				F49A84852AB1FCD300B89579 /* LottoCodable.swift in Sources */,
 				F4C058862AAE991D00C3BB7C /* SceneDelegate.swift in Sources */,
+				F48495E62AB02A4D000AC8DB /* APIService.swift in Sources */,
+				F48495E12AB00155000AC8DB /* SampleViewModel.swift in Sources */,
+				F49A84782AB13A9B00B89579 /* CalcViewModel.swift in Sources */,
+				F48495EC2AB02DA0000AC8DB /* PhotoViewModel.swift in Sources */,
+				F48495DF2AAFFDE5000AC8DB /* SampleViewController.swift in Sources */,
+				F48495E32AB00E3E000AC8DB /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +290,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				F4C0588A2AAE991D00C3BB7C /* Base */,
+				F4C058972AAE9CB300C3BB7C /* ko */,
+				F4C058992AAE9CBB00C3BB7C /* ja */,
+				F4C0589D2AAE9DBD00C3BB7C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +301,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				F4C0588F2AAE991D00C3BB7C /* Base */,
+				F4C058982AAE9CB300C3BB7C /* ko */,
+				F4C0589A2AAE9CBB00C3BB7C /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C058A22AAEAE2300C3BB7C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C058A12AAEAE2300C3BB7C /* en */,
+				F4C058A32AAEAE3100C3BB7C /* ja */,
+				F4C058A42AAEAE3200C3BB7C /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F4C058AB2AAEBDD100C3BB7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C058AA2AAEBDD100C3BB7C /* en */,
+				F4C058AC2AAEBDD800C3BB7C /* ja */,
+				F4C058AD2AAEBDD800C3BB7C /* ko */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -293,8 +459,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +469,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eunseo.Unsplash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +491,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +501,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eunseo.Unsplash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +532,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F49A84812AB1FC8B00B89579 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F49A84822AB1FC8B00B89579 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F49A84812AB1FC8B00B89579 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4C058782AAE991D00C3BB7C /* Project object */;
 }

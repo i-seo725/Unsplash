@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Unsplash
+
+  Created by 이은서 on 2023/09/11.
+  
+*/
+
+"NSLocationWhenInUseUsageDescription" = "이래서 위치 필요함";
+"CFBundleDisplayName" = "내가 만든 앱";
