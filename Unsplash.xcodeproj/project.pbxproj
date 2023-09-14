@@ -25,6 +25,8 @@
 		F49A84852AB1FCD300B89579 /* LottoCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84842AB1FCD300B89579 /* LottoCodable.swift */; };
 		F49A84872AB1FF3200B89579 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84862AB1FF3200B89579 /* LottoViewModel.swift */; };
 		F49A84892AB1FF4600B89579 /* LottoObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A84882AB1FF4600B89579 /* LottoObservable.swift */; };
+		F49A848B2AB204D700B89579 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F49A848A2AB204D700B89579 /* .gitignore */; };
+		F49A848D2AB204EA00B89579 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A848C2AB204EA00B89579 /* APIKey.swift */; };
 		F4C058842AAE991D00C3BB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058832AAE991D00C3BB7C /* AppDelegate.swift */; };
 		F4C058862AAE991D00C3BB7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058852AAE991D00C3BB7C /* SceneDelegate.swift */; };
 		F4C058882AAE991D00C3BB7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C058872AAE991D00C3BB7C /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		F49A84842AB1FCD300B89579 /* LottoCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoCodable.swift; sourceTree = "<group>"; };
 		F49A84862AB1FF3200B89579 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
 		F49A84882AB1FF4600B89579 /* LottoObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoObservable.swift; sourceTree = "<group>"; };
+		F49A848A2AB204D700B89579 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F49A848C2AB204EA00B89579 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		F4C058802AAE991D00C3BB7C /* Unsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C058832AAE991D00C3BB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C058852AAE991D00C3BB7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 		F4C058822AAE991D00C3BB7C /* Unsplash */ = {
 			isa = PBXGroup;
 			children = (
+				F49A848A2AB204D700B89579 /* .gitignore */,
 				F49A847B2AB1FA4700B89579 /* Assignment */,
 				F49A84742AB139B600B89579 /* Calculate */,
 				F48495E42AB02A3D000AC8DB /* Photo */,
@@ -174,6 +179,7 @@
 				F4C058912AAE991D00C3BB7C /* Info.plist */,
 				F4C058A52AAEBAB400C3BB7C /* String+Extension.swift */,
 				F4C058AB2AAEBDD100C3BB7C /* InfoPlist.strings */,
+				F49A848C2AB204EA00B89579 /* APIKey.swift */,
 			);
 			path = Unsplash;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 				F4C058A02AAEAE2300C3BB7C /* Localizable.strings in Resources */,
 				F4C0588D2AAE991D00C3BB7C /* Assets.xcassets in Resources */,
 				F4C0588B2AAE991D00C3BB7C /* Main.storyboard in Resources */,
+				F49A848B2AB204D700B89579 /* .gitignore in Resources */,
 				F4C058A92AAEBDD100C3BB7C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 				F49A84762AB139DE00B89579 /* CacluateViewController.swift in Sources */,
 				F49A847E2AB1FA5F00B89579 /* LottoViewController.swift in Sources */,
 				F49A84872AB1FF3200B89579 /* LottoViewModel.swift in Sources */,
+				F49A848D2AB204EA00B89579 /* APIKey.swift in Sources */,
 				F4C058842AAE991D00C3BB7C /* AppDelegate.swift in Sources */,
 				F48495DB2AAFED53000AC8DB /* LoginViewController.swift in Sources */,
 				F48495DD2AAFF2F7000AC8DB /* Observable.swift in Sources */,
